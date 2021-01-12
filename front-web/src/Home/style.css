@@ -67,10 +67,13 @@
 
   .home-title {
     font-size: 40px;
+    /* margin-left: 220px !important; */
+    text-align: center;
   }
 
   .home-subtitle {
     text-align: center;
+    /* margin-left: 220px !important; */
   }
 
   .home-actions {
@@ -81,10 +84,15 @@
 
   .home-image {
     text-align: center;
+    
   }
 
   .home-image svg {
     width: 80%;
+  }
+
+  .home-btn-order{
+    margin-left: 35vw;
   }
 }
 
@@ -92,5 +100,17 @@
   .home-container {
     height: auto;
     margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .home-btn-order{
+    margin-left: 24vw;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .home-btn-order{
+    margin-left: 19vw;
   }
 }
